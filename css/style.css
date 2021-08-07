@@ -1,4 +1,11 @@
 /* My own custom css */
+body::before{
+    display: block;
+    content: "";
+    height: 100px;
+
+}
+
 
 .panda-bg-info{
     background-color: #fceae8;
@@ -18,4 +25,7 @@
     height: 40px; */
     text-align: center;
     cursor: pointer;
+}
+.margin{
+    margin-bottom: 40px;
 }
